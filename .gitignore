@@ -1,0 +1,18 @@
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Common local caches and secrets
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+.pytest_cache/
+.venv/
+
+# Build outputs
+dist/
+build/
+coverage/
